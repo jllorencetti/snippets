@@ -1,0 +1,93 @@
+.calendar {
+  padding: .5rem;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.calendar .month {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.54rem;
+  background-color: #42576f;
+  color: #fff;
+  padding: inherit;
+}
+
+.calendar .week {
+  line-height: 3rem;
+}
+
+.calendar .weekdays {
+  overflow: hidden;
+}
+
+.calendar .weekdays div,
+.calendar .day {
+  box-sizing: border-box;
+  text-align: center;
+  float: left;
+  width: 12.2857143%;
+  margin: 2.333% 0 0 2.333%;
+}
+
+.calendar .day {
+  border: 1px solid #eee;
+}
+
+.calendar .day:hover {
+  background-color: #9cb8d4;
+}
+
+.calendar .day.today {
+  font-weight: 700;
+}
+
+.calendar .weekdays div:first-child,
+.calendar .day:first-child {
+  margin-left: 0;
+}
+
+.calendar .day.other-month,
+.calendar .day.other-month:hover {
+  color: #474747;
+  background-color: #eee;
+  font-weight: 400;
+}
+
+.calendar .day a {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+}
+
+.calendar .day:hover,
+.calendar .day:hover a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.calendar .event-one {
+  background-color: #9cdd88;
+}
+
+.calendar .event-one:hover {
+  background-color: #85cd6e;
+}
+
+.calendar .event-two {
+  background-color: #faff57;
+}
+
+.calendar .event-two:hover {
+  background-color: #c8cd5a;
+}
+
+.calendar .event-three {
+  background-color: #ffc1b8;
+}
+
+.calendar .event-three:hover {
+  background-color: #dca49f;
+}
